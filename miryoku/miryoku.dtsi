@@ -47,6 +47,10 @@ MIRYOKU_LAYER_LIST
   #include "miryoku_kludge_bottomrowcombos.dtsi"
 #endif
 
+#if defined (MIRYOKU_KLUDGE_CUSTOMCOMBOS)
+  #include "miryoku_kludge_customcombos.dtsi"
+#endif
+
 #if defined (MIRYOKU_KLUDGE_TAPDELAY)
   #include "miryoku_kludge_tapdelay.dtsi"
 #else
